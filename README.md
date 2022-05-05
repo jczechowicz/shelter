@@ -1,3 +1,3 @@
 # shelter
 
-https://jczechowicz.github.io/shelter/main/index.html
+https://jczechowicz.github.io/shelter/pages/main/index.html
