@@ -93,8 +93,6 @@ a {
     color: var(--color-dark-l);
 }
 
-/* ============ layout styles ============= */
-
 header {
     display: flex;
     justify-content: space-between;
