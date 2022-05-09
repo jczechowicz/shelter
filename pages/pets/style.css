@@ -26,9 +26,9 @@ header{
 }
 
 header .content{
-    display: grid;
     width: 1200px;
-    height: 843px;
+    margin: 0 auto;
+    padding: 80px 0 100px 0;
     
     align-self: flex-end;
     justify-self: center;
@@ -53,7 +53,7 @@ header .content .header .menu{
 }
 
 header .content .header .menu a{
-    color: #CDCDCD;
+    color: var(--color-dark-l);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -124,7 +124,7 @@ a {
     line-height: 15px;
     letter-spacing: 0.1em;
     text-align: left;
-    color: white;
+    color: var(--color-dark-l);
     padding-left: 4px;
 }
 
@@ -136,7 +136,7 @@ a {
     line-height: 35px;
     letter-spacing: 0.06em;
     text-align: left;
-    color: #F1CDB3;
+    color: var(--color-dark-l);
     padding: 0 0 10px;
     margin: 0;
 }
