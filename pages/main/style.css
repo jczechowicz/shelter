@@ -565,3 +565,156 @@ a {
   color:#F1CDB3;
   text-decoration: none;  
 }
+
+@media (max-width: 1279px) {
+    header,
+    .content,
+    .container {
+        max-width: 768px;
+    }
+
+    header {
+        margin: 30px 0 10px 0;
+        padding: 0 30px;
+        height: 1165px;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        width: 569px;
+        height: 593px;
+    }
+
+    header .content {
+        margin: 140px auto 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .content . header {
+        margin: 10px 0;
+        width: 459px;
+    }
+
+    a {
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    header img {
+        height: inherit;
+    }
+
+   .block1 {
+        height: 1048px;
+        margin-top: 1165px;
+    }
+
+    .block1 .content1 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .block1 .content1 .info {
+        width: 429px;
+        height: auto;
+        margin: 0;
+    }
+
+    .images {
+        margin: 80px 0;
+      }
+
+    .block2 {
+        height: 877px;
+        padding: 0 30px;
+    }
+
+    .block2 .card1 .cr-1 .card2 .cr-2 {
+        width: 580px;
+    }
+
+    .card:nth-of-type(3) {
+        display: none;
+    }
+
+    .block3 {
+        height: 779px;
+    }
+
+    .block3 .info {
+        height: 450px;
+        padding: 0 40px 0 40px;
+    }
+
+    .block3 .info .icons {
+        flex-basis: calc(100% / 3);
+    }
+
+    .info:nth-child(3) {
+        padding-right: 0;
+    }
+    
+    .info:nth-child(4) {
+        padding-right: 0;
+    }
+    
+    .info:nth-child(6) {
+        margin-left: 0;
+    }
+    
+    .info:nth-child(7) {
+        padding-right: 0;
+    }
+    
+    .info:nth-child(8) {
+        padding-right: 0;
+    }
+    
+    .info:nth-child(9) {
+        margin-right: 0;
+    }
+
+    .block4 {
+        height: 783px;
+    }
+
+    .block4 .info .contents .pay-card {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .block4 .info .contents .pay-card img {
+        margin-right: 0;
+        margin-top: 56px;
+    }
+
+    footer {
+        height: 639px;
+    }
+
+    footer .info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .info .cl-1 {
+        flex-basis: 42%;
+    }
+
+    footer .info .cl-1 h3 {
+        margin-top: 0;
+    }
+
+    footer .info. cl-1 .icons h4 {
+        margin-right: 0;
+        padding: 0 14px;
+    }
+
+    footer img {
+        margin: 0 auto;
+        height: 310px;
+        width: 300px;
+        margin-top: 56px;
+    }
+}
