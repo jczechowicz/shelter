@@ -573,14 +573,7 @@ a {
         margin: 0 auto;
     }
     
-    header .burger {
-        display: block;
-        width: 30px;
-        height: 22px;
-        margin: 0 43px;
-    }
-    
-    header .header_section {
+    .header_section {
         padding: 30px 10px;
     }
     
@@ -588,17 +581,23 @@ a {
         display: none;
     }
     
-    header .start_screen_content {
+    .start_screen_content {
         padding: 30px 10px 0;
         flex-direction: column;        
     }
     
-    header .start_screen_content .info {
+    header .info {
         margin: 0;
         text-align: center;
         width: 100%;
     }
     
+    .start_screen_content {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+        
     .start_screen_content h2 {
         font-size: 25px;
     }
