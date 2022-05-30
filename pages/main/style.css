@@ -91,11 +91,6 @@ header .content .image{
     display: grid;
     align-items: end;
 }
-.header-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .logo{
     cursor: pointer;
@@ -103,23 +98,27 @@ header .content .image{
 
 .logo_title{
     font-family: Georgia, serif;
+    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-    font-size: 2rem;    
-    line-height: 110%;    
-    letter-spacing: 0.06em; 
     color: #F1CDB3;
-    display: inline-block;
-    margin-bottom: 0.625rem;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    padding: 0 0 10px;
+    margin: 0;
 }
 
 .logo_subtitle{
     font-family: Arial, serif;
     font-weight: 400;
-    font-size: 0.8125rem;
-    line-height: 0.9375rem;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 15px;
     letter-spacing: 0.1em;
     color: white;
-    display: inline-block;
+    text-align: left;
+    padding-left: 4px;
 }
 
 .block1{
@@ -597,13 +596,13 @@ a {
         font-size: 25px;
     }
     
-    .button {
+    header .button {
         display: inline-flex;
         margin: 0;
         margin-bottom: 105px;
     }
     
-    .image {
+    header .image {
         width: 260px;
         height:271.77px;
     }
