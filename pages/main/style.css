@@ -566,6 +566,50 @@ a {
   text-decoration: none;  
 }
 
+/* responsive navbar */
+
+nav button {
+    margin-top: 0;
+    padding: 3rem 2.1rem;
+    display: flex;
+}
+
+.burger-menu {
+    display: none;
+    z-index: 100;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+.showMenu {
+    transform: rotate(-90deg);
+}
+
+nav .navbar-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #23272a;
+    z-index: 80;
+    position: absolute;
+    width: 320px;
+    right: 0;
+    height: 100vh;
+    -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}  
+
+nav .navbar-mobile a.menuItem:link, nav .navbar-mobile a.menuItem:visited {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+nav .navbar-mobile li {
+    margin-left: 0;
+}
+
 @media screen and (max-width: 767px) {
     
     header, main, footer {
